@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Definiamo la nostra palette Prugna (Plum) personalizzata per v4 */
+  --color-plum-50: #fdf4ff;
+  --color-plum-100: #fae8ff;
+  --color-plum-200: #f5d0fe;
+  --color-plum-600: #c026d3;
+  --color-plum-900: #701a75;
+  --color-plum-950: #4a044e;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+/* Stili per la stampa del PDF */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+}
