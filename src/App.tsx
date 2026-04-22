@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Zap, Users, Shield, CheckCircle, Download, RotateCcw, Heart, ArrowRight, Sparkles, User } from 'lucide-react';
 
 // --- TIPI ---
